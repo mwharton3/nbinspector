@@ -1,7 +1,4 @@
 # nbinspector
-Notebook Inspector Tools
-
-# Overview
 Simple tool to enable inspection of both dictionaries and generic objects in Jupyter notebooks.
 
 The inspector will create a clickable interface in your notebook where you can browse your object in real time.
