@@ -9,6 +9,18 @@ pip install nbinspector
 ```
 
 # Usage
+`nbinspector` is designed with many use cases in mind:
+- Browsing highly nested dictionaries (keys and list items are clickable)
+  - Configs
+  - API responses
+  - JSON objects
+- Browsing generic non-dictionary objects (attributes are clickable)
+  - Imported libraries (especially when the docs are unreliable)
+  - Configs
+  - Dataclasses
+
+There will undoubtedly be others as well. To use it, do the following:
+
 ```
 from nbinspector import inspect
 
