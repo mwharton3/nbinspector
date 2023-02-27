@@ -3,6 +3,11 @@ Simple tool to enable inspection of both dictionaries and generic objects in Jup
 
 The inspector will create a clickable interface in your notebook where you can browse your object in real time.
 
+# Installation
+```
+pip install nbinspector
+```
+
 # Usage
 ```
 from nbinspector import inspect
