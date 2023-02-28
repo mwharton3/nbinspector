@@ -1,6 +1,9 @@
 import ipywidgets as widgets
 from IPython.display import clear_output
-from IPython.core.display_functions import display
+try:
+    from IPython.core.display_functions import display
+except ModuleNotFoundError:
+    from IPython.display import display
 from functools import partial
 
 boxlayout = widgets.Layout(flex_flow="row wrap")
